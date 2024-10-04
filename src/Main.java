@@ -13,16 +13,16 @@ public class Main {
         int numInput = myObj.nextInt();
         new ChrismasTree().createTree(numInput);
 
-//        //  2. Forex
-//        System.out.print("Input Number on THB: ");
-//        int THBInput = myObj.nextInt();
-//        System.out.print("Input String Currency Type: ");
-//        String CurInput = myObj.next();
-//        new Forex().forex(THBInput, CurInput);
-//
-//        //  3. DistanceCal
-//        System.out.print("Input Gas Liter: ");
-//        int FuelInput = myObj.nextInt();
-//        new DistanceCal().Calculator(FuelInput);
+        //  2. Forex
+        System.out.print("Input Number on THB: ");
+        int THBInput = myObj.nextInt();
+        System.out.print("Input String Currency Type: ");
+        String CurInput = myObj.next();
+        new Forex().forex(THBInput, CurInput);
+
+        //  3. DistanceCal
+        System.out.print("Input Gas Liter: ");
+        int FuelInput = myObj.nextInt();
+        new DistanceCal().Calculator(FuelInput);
     }
 }
